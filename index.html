@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prodigy Infotech Project 1">
+    <meta name="description" content="This is the first project where I have to make a responsive navigation bar">
+    <title>Responsive Navigation</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon_io/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="navBar" class="navBar" aria-label="primaryNavigationBar">
+            <div id="companyDetails">
+                <img src="./imgaes/logo.png" alt="logo" id="companyLogo" width="70">
+                <p id="companyName">Job Search</p>
+            </div>
+            
+            <div id="hamburgerMenu">
+                <span id="hb1"></span>
+                <span id="hb2"></span>
+                <span id="hb3"></span>
+            </div>
+            <div id="links" class="navLinks">
+                <ul>
+                    <li id="homeLink"><a href="#">Home</a></li>
+                    <li id="productsLink"><a href="#">Products <i class="fa-solid fa-angle-down"></i></a><div id="productMenu" class="subMenu">
+                        <ul>
+                            <li><a href="#">Internships</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Sales</a></li>
+                            <li><a href="#">Administration</a></li>
+                        </ul>
+                    </div>
+                        
+                        </li>
+                    <li id="pricingLink"><a href="#">Pricing</a></li>
+                    <li id="supportLink"><a href="#">Support <i class="fa-solid fa-angle-down"></i></a>
+                        <div id="supportMenu" class="subMenu">
+                            <ul>
+                                <li><a href="#">Email Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Postal Address</a> <Address>
+                                    123, Unknown Street, Kolkata, 700030
+                                </Address></li>
+                            </ul>
+                        </div></li>
+                    <li id="companyLink"><a href="#">Company</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        
+        
+    </header>
+    <!-- <main>
+        <article>
+            <h2>First Section</h1>
+            <section>
+                <legend>Details</legend>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur exercitationem sequi soluta odio, corporis eligendi pariatur dolore adipisci ducimus ut eius velit ipsam quia provident nulla magnam! Praesentium culpa id fuga exercitationem eveniet doloremque fugit, debitis hic non accusamus dolorum enim modi adipisci repudiandae deserunt laboriosam rem aliquid necessitatibus earum ad eaque, ipsa ducimus. Atque, non commodi dolorem et ea distinctio architecto doloremque explicabo error illo consequuntur, laborum ipsum itaque pariatur dolorum. Voluptates, illum rerum. Ducimus enim quas incidunt maiores quam facilis non quidem accusantium omnis vero optio cum possimus pariatur architecto, nulla modi, nemo quibusdam, odio magnam dolores voluptates. Laudantium, exercitationem? Minus quidem nisi quis vel maxime ipsum, doloremque labore impedit, ratione, id non? Officia commodi, esse ipsam a, cum eius sit ex doloremque dicta rerum optio aliquid atque voluptas voluptatum amet architecto fuga consequuntur est! Magnam, at recusandae! Iure earum iusto a veritatis quibusdam natus ex perspiciatis soluta debitis non explicabo, magnam minus unde eos architecto maxime autem? Doloremque debitis sapiente aliquid consequuntur modi eos a inventore suscipit nostrum culpa praesentium, laboriosam voluptate maiores voluptatum. Repellendus, deleniti cumque illum ipsam est sunt itaque cupiditate deserunt quibusdam accusamus non explicabo aut sint provident excepturi dolores eveniet possimus quidem ex delectus! In ullam non eum aliquid nihil, omnis nisi facere rerum error, quasi ea sapiente perferendis. Qui ut quo dignissimos quibusdam consectetur et soluta aspernatur facilis cum, libero non. Consequatur excepturi nisi hic nemo laudantium recusandae error impedit natus suscipit? Magnam nemo rem fuga iure illo eius voluptates explicabo expedita dicta molestias nam ut cumque quo deserunt saepe deleniti architecto et voluptatem repellat, recusandae, dolor doloribus. Eligendi soluta quis expedita autem in adipisci inventore fugit aliquam alias praesentium magni quasi commodi rem ut error, incidunt odio voluptas doloribus ipsa esse. Aperiam dolorem, nihil eum expedita dignissimos fugiat. Alias non voluptatibus consequatur sed! Facilis, tempore nobis culpa ad dicta quae quod nemo, voluptatum id ea pariatur! A exercitationem eligendi consequuntur mollitia explicabo odio. Quam aliquid molestiae architecto sapiente consectetur nam. Consequatur incidunt magni odit odio ullam impedit quis ab excepturi repellat.</section>
+        </article>
+        <article>
+            <h2>Second Section</h1>
+            <section><legend>Details</legend>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur exercitationem sequi soluta odio, corporis eligendi pariatur dolore adipisci ducimus ut eius velit ipsam quia provident nulla magnam! Praesentium culpa id fuga exercitationem eveniet doloremque fugit, debitis hic non accusamus dolorum enim modi adipisci repudiandae deserunt laboriosam rem aliquid necessitatibus earum ad eaque, ipsa ducimus. Atque, non commodi dolorem et ea distinctio architecto doloremque explicabo error illo consequuntur, laborum ipsum itaque pariatur dolorum. Voluptates, illum rerum. Ducimus enim quas incidunt maiores quam facilis non quidem accusantium omnis vero optio cum possimus pariatur architecto, nulla modi, nemo quibusdam, odio magnam dolores voluptates. Laudantium, exercitationem? Minus quidem nisi quis vel maxime ipsum, doloremque labore impedit, ratione, id non? Officia commodi, esse ipsam a, cum eius sit ex doloremque dicta rerum optio aliquid atque voluptas voluptatum amet architecto fuga consequuntur est! Magnam, at recusandae! Iure earum iusto a veritatis quibusdam natus ex perspiciatis soluta debitis non explicabo, magnam minus unde eos architecto maxime autem? Doloremque debitis sapiente aliquid consequuntur modi eos a inventore suscipit nostrum culpa praesentium, laboriosam voluptate maiores voluptatum. Repellendus, deleniti cumque illum ipsam est sunt itaque cupiditate deserunt quibusdam accusamus non explicabo aut sint provident excepturi dolores eveniet possimus quidem ex delectus! In ullam non eum aliquid nihil, omnis nisi facere rerum error, quasi ea sapiente perferendis. Qui ut quo dignissimos quibusdam consectetur et soluta aspernatur facilis cum, libero non. Consequatur excepturi nisi hic nemo laudantium recusandae error impedit natus suscipit? Magnam nemo rem fuga iure illo eius voluptates explicabo expedita dicta molestias nam ut cumque quo deserunt saepe deleniti architecto et voluptatem repellat, recusandae, dolor doloribus. Eligendi soluta quis expedita autem in adipisci inventore fugit aliquam alias praesentium magni quasi commodi rem ut error, incidunt odio voluptas doloribus ipsa esse. Aperiam dolorem, nihil eum expedita dignissimos fugiat. Alias non voluptatibus consequatur sed! Facilis, tempore nobis culpa ad dicta quae quod nemo, voluptatum id ea pariatur! A exercitationem eligendi consequuntur mollitia explicabo odio. Quam aliquid molestiae architecto sapiente consectetur nam. Consequatur incidunt magni odit odio ullam impedit quis ab excepturi repellat.</section>
+        </article>
+        <article>
+            <h2>Third Section</h1>
+            <section><legend>Details</legend>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur exercitationem sequi soluta odio, corporis eligendi pariatur dolore adipisci ducimus ut eius velit ipsam quia provident nulla magnam! Praesentium culpa id fuga exercitationem eveniet doloremque fugit, debitis hic non accusamus dolorum enim modi adipisci repudiandae deserunt laboriosam rem aliquid necessitatibus earum ad eaque, ipsa ducimus. Atque, non commodi dolorem et ea distinctio architecto doloremque explicabo error illo consequuntur, laborum ipsum itaque pariatur dolorum. Voluptates, illum rerum. Ducimus enim quas incidunt maiores quam facilis non quidem accusantium omnis vero optio cum possimus pariatur architecto, nulla modi, nemo quibusdam, odio magnam dolores voluptates. Laudantium, exercitationem? Minus quidem nisi quis vel maxime ipsum, doloremque labore impedit, ratione, id non? Officia commodi, esse ipsam a, cum eius sit ex doloremque dicta rerum optio aliquid atque voluptas voluptatum amet architecto fuga consequuntur est! Magnam, at recusandae! Iure earum iusto a veritatis quibusdam natus ex perspiciatis soluta debitis non explicabo, magnam minus unde eos architecto maxime autem? Doloremque debitis sapiente aliquid consequuntur modi eos a inventore suscipit nostrum culpa praesentium, laboriosam voluptate maiores voluptatum. Repellendus, deleniti cumque illum ipsam est sunt itaque cupiditate deserunt quibusdam accusamus non explicabo aut sint provident excepturi dolores eveniet possimus quidem ex delectus! In ullam non eum aliquid nihil, omnis nisi facere rerum error, quasi ea sapiente perferendis. Qui ut quo dignissimos quibusdam consectetur et soluta aspernatur facilis cum, libero non. Consequatur excepturi nisi hic nemo laudantium recusandae error impedit natus suscipit? Magnam nemo rem fuga iure illo eius voluptates explicabo expedita dicta molestias nam ut cumque quo deserunt saepe deleniti architecto et voluptatem repellat, recusandae, dolor doloribus. Eligendi soluta quis expedita autem in adipisci inventore fugit aliquam alias praesentium magni quasi commodi rem ut error, incidunt odio voluptas doloribus ipsa esse. Aperiam dolorem, nihil eum expedita dignissimos fugiat. Alias non voluptatibus consequatur sed! Facilis, tempore nobis culpa ad dicta quae quod nemo, voluptatum id ea pariatur! A exercitationem eligendi consequuntur mollitia explicabo odio. Quam aliquid molestiae architecto sapiente consectetur nam. Consequatur incidunt magni odit odio ullam impedit quis ab excepturi repellat.</section>
+        </article>
+        <article>
+            <h2>Fourth Section</h1>
+            <section><legend>Details</legend>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur exercitationem sequi soluta odio, corporis eligendi pariatur dolore adipisci ducimus ut eius velit ipsam quia provident nulla magnam! Praesentium culpa id fuga exercitationem eveniet doloremque fugit, debitis hic non accusamus dolorum enim modi adipisci repudiandae deserunt laboriosam rem aliquid necessitatibus earum ad eaque, ipsa ducimus. Atque, non commodi dolorem et ea distinctio architecto doloremque explicabo error illo consequuntur, laborum ipsum itaque pariatur dolorum. Voluptates, illum rerum. Ducimus enim quas incidunt maiores quam facilis non quidem accusantium omnis vero optio cum possimus pariatur architecto, nulla modi, nemo quibusdam, odio magnam dolores voluptates. Laudantium, exercitationem? Minus quidem nisi quis vel maxime ipsum, doloremque labore impedit, ratione, id non? Officia commodi, esse ipsam a, cum eius sit ex doloremque dicta rerum optio aliquid atque voluptas voluptatum amet architecto fuga consequuntur est! Magnam, at recusandae! Iure earum iusto a veritatis quibusdam natus ex perspiciatis soluta debitis non explicabo, magnam minus unde eos architecto maxime autem? Doloremque debitis sapiente aliquid consequuntur modi eos a inventore suscipit nostrum culpa praesentium, laboriosam voluptate maiores voluptatum. Repellendus, deleniti cumque illum ipsam est sunt itaque cupiditate deserunt quibusdam accusamus non explicabo aut sint provident excepturi dolores eveniet possimus quidem ex delectus! In ullam non eum aliquid nihil, omnis nisi facere rerum error, quasi ea sapiente perferendis. Qui ut quo dignissimos quibusdam consectetur et soluta aspernatur facilis cum, libero non. Consequatur excepturi nisi hic nemo laudantium recusandae error impedit natus suscipit? Magnam nemo rem fuga iure illo eius voluptates explicabo expedita dicta molestias nam ut cumque quo deserunt saepe deleniti architecto et voluptatem repellat, recusandae, dolor doloribus. Eligendi soluta quis expedita autem in adipisci inventore fugit aliquam alias praesentium magni quasi commodi rem ut error, incidunt odio voluptas doloribus ipsa esse. Aperiam dolorem, nihil eum expedita dignissimos fugiat. Alias non voluptatibus consequatur sed! Facilis, tempore nobis culpa ad dicta quae quod nemo, voluptatum id ea pariatur! A exercitationem eligendi consequuntur mollitia explicabo odio. Quam aliquid molestiae architecto sapiente consectetur nam. Consequatur incidunt magni odit odio ullam impedit quis ab excepturi repellat.</section>
+        </article>
+    </main> -->
+    <!-- <button id="backToTop">Back To Top</button> -->
+    <script src="./script/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/1454600ae4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
