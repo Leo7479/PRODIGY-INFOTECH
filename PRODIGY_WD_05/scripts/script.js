@@ -42,6 +42,7 @@ if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(showLocation);
 }
 function showLocation(position){
+    alert(position.coords.latitute + " " + position.coords.longitude);
     console.log(position);
     fetch(url+"lat="+position.coords.latitude+"&lon="+position.coords.longitude)
         .then(result => result.json())
