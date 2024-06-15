@@ -96,7 +96,7 @@ body{
     font-family: sans-serif;
 }
 .details{
-    width: 90%;
+    width: 70%;
     height: 75%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -196,9 +196,11 @@ body{
     .detailsIcon{
         width: 30%;
     }
+    .details{
+        width: 90%;
+    }
     .details > div > div {
         width: 50%;
-        border: 1px solid red;
     }
     .details > div span{
         width: 50%;
